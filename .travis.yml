@@ -1,6 +1,9 @@
 language: java
 jdk:
   - openjdk8
+env:
+  global:
+    - JAVA_1_8_HOME=${JAVA_HOME}
 cache:
   directories:
   - $HOME/.m2
