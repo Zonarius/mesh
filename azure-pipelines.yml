@@ -1,6 +1,8 @@
 pool:
   vmImage: 'Ubuntu 16.04'
 
+variables:
+  JAVA_1_8_HOME: "$(JAVA_HOME)"
 steps:
 - task: Maven@3
   inputs:
